@@ -1,13 +1,13 @@
 import React from 'react'
+import dynamic from 'next/dynamic'
 import type { NextPage } from 'next'
-import Container from 'components/templates/Container'
+
+const Desktop = dynamic(() => import('components/pages/Desktop'), {
+  ssr: false
+})
 
 const Home: NextPage = () => {
-  return (
-    <Container>
-      <div />
-    </Container>
-  )
+  return <Desktop />
 }
 
 export default Home

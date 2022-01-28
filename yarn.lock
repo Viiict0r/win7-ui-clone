@@ -471,6 +471,11 @@
     "@typescript-eslint/types" "5.10.1"
     eslint-visitor-keys "^3.0.0"
 
+"@viselect/react@^3.0.0-beta.13":
+  version "3.0.0-beta.13"
+  resolved "https://registry.yarnpkg.com/@viselect/react/-/react-3.0.0-beta.13.tgz#5ff1b8e5badc922060cd1c7216668c40c2f82d5d"
+  integrity sha512-/4hOrKg9lasrLar19c3zom5z+XOx+K1XEqNpwclkASsofByRM0kuMMa3l7BRClVX763zTcEk9bVLYnHj+CgtCw==
+
 acorn-jsx@^5.3.1:
   version "5.3.2"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"

@@ -17,11 +17,18 @@ export default createGlobalStyle`
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    user-select: none;
   }
 
   #__next {
     height: 100%;
     width: 100%;
+
+  }
+
+  .selection-area {
+    background: rgba(46, 115, 252, 0.2);
+    border: 1px solid rgba(98, 155, 255, 0.81);
   }
 
   * {
