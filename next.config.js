@@ -1,6 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+/* eslint-disable @typescript-eslint/no-var-requires */
+const withFonts = require('next-fonts')
 
-module.exports = nextConfig
+module.exports = withFonts({
+  webpack(config, options) {
+    return config
+  }
+})

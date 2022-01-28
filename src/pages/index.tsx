@@ -1,11 +1,12 @@
 import React from 'react'
 import type { NextPage } from 'next'
+import Container from 'components/templates/Container'
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <span></span>
-    </div>
+    <Container>
+      <div />
+    </Container>
   )
 }
 
